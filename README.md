@@ -58,6 +58,11 @@ _**You will need your own API Key from Better Doctor**_
 * jquery
 * bootstrap
 
+## Known Bugs
+
+If you are having difficulty retrieving information from the API try installing: [Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en)
+  * Click green button on top right of pop-up labeled 'added to chrome' and follow prompts.
+  
 ## Technologies Used
 
 * _JavaScript_

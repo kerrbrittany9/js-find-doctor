@@ -1,14 +1,22 @@
-$gray : #d3d3d3;
-$green : #75B975;
+$slate : #C6D8D3;
+$bluey : #96ADC8;
+$mauve : #BA9593;
 
 .box {
-  background: $gray;
-  border: 3px solid black;
+  background: $slate;
+  border: 3px solid white;
   padding: 40px 80px;
+  color: $mauve;
   .button {
     font-weight: bold;
     text-align: center;
-    background: $green;
+    background: $bluey;
     color: white;
   }
+}
+
+.jumbotron {
+  background: $bluey;
+  color: white;
+  text-align: center;
 }
