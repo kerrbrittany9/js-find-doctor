@@ -5,6 +5,7 @@ var Illness = require('./../js/illness.js').illnessModule;
 // };
 
 $(document).ready(function() {
+  var illness = new Illness();
   $('#symptom-form').click(function() {
     var medicalIssue = $('#medicalIssue').val();
     $('#medicalIssue').val("");
