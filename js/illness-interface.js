@@ -1,15 +1,17 @@
 var Illness = require('./../js/illness.js').illnessModule;
 
-// var displayDoctors = function(medicalIssue, doctorList) {
-//   $('#showDoctors').append("Doctors who treat the following: " + medicalIssue + "are listed below:" + "<ul><li>" + doctorList + "</li></ul>");
-// };
+var displayDoctors = function(medicalIssue, doctors) {
+  doctors.forEach(function(doctor) {
+    $('#showDoctors').append("<li>" + doctor.profile.bio + "</li>");
+  });
+};
 
 $(document).ready(function() {
   var illness = new Illness();
   $('#symptom-form').click(function() {
+    event.preventDefault();
     var medicalIssue = $('#medicalIssue').val();
     $('#medicalIssue').val("");
-    illness.getDoctors(medicalIssue);
-
+    illness.getDoctors(medicalIssue, displayDoctors);
   });
 });
