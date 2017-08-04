@@ -1,0 +1,14 @@
+{
+  "name": "friday",
+  "description": "plan: specs: input illness, output doctor name requires an API call specs: input: click doctor, output: view doctor info.",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
